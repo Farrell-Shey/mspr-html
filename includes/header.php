@@ -20,13 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Accueil</a>
+                    <a class="nav-link" href="http://localhost/mspr-html/">Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Marque</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="http://localhost/mspr-html/produit#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Nos Produits
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -36,7 +36,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nous Contactez</a>
+                    <a class="nav-link" href="http://localhost/mspr-html/contact">Nous Contactez</a>
                 </li>
             </ul>
         </div>
