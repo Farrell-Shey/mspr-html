@@ -7966,7 +7966,7 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  box-shadow: 0 5px 5px rgba(227, 195, 87, 0.15) !important;
+  box-shadow: 5px 5px 0 rgba(227, 195, 87, 0.3) !important;
 }
 
 .shadow-lg {
@@ -10179,6 +10179,19 @@ a.text-dark:hover, a.text-dark:focus {
   min-height: calc(100vh - 56px);
 }
 
+.wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.wave + .wave {
+  z-index: 2;
+}
+
 .carousel {
   height: calc(100vh - 56px);
   margin: auto;
@@ -10211,10 +10224,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 .jumbotron {
   background: #000;
+  border-radius: 0;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
 }
 
 .card {
-  margin: 5% 10%;
+  width: 330px;
+  height: 620px;
+  margin: 5% auto;
   border-radius: 15px;
   border: 1px solid #e3c357;
   background: transparent;
@@ -10224,7 +10245,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card:hover {
   background: rgba(128, 128, 128, 0.3);
-  box-shadow: 0 5px 5px rgba(227, 195, 87, 0.15);
+  box-shadow: 5px 5px 0 rgba(227, 195, 87, 0.3);
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -10239,7 +10260,7 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center;
 }
 
-.form-group {
+.form-group label {
   color: white;
 }
 

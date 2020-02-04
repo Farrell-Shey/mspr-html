@@ -1,7 +1,7 @@
 <?php require_once 'includes/header.php'; ?>
 
 <section class="jumbotron">
-    <h1 class="">Nos produits</h1>
+    <h1 class="">Nos Innovations Iphone 11 Pro</h1>
     <div class="row">
         <div class="col">
             <a href="#">
@@ -35,5 +35,6 @@
         </div>
     </div>
 </section>
+
 
 <?php require_once 'includes/footer.php'; ?>
