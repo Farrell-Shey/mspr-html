@@ -10260,7 +10260,31 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center;
 }
 
-.form-group label {
+.form-group {
+  color: white;
+}
+
+.form-group input {
+  background-color: black;
+}
+
+button {
+  background-color: black;
+  margin-top: 50px;
+}
+
+.contact {
+  text-align: center;
+  color: white;
+  margin-top: 90px;
+  font-size: 7em;
+}
+
+.container {
+  margin-top: 90px;
+}
+
+.form-group {
   color: white;
 }
 
