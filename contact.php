@@ -1,3 +1,6 @@
+<?php require_once 'includes/header.php'; ?>
+
+        <h1 class="contact">Nous Contacter</h1>
 
 <form>
     <div class="container" >
@@ -37,5 +40,6 @@
     </div>
 
 </form>
+
 
 <?php require_once 'includes/footer.php'; ?>

@@ -1,13 +1,21 @@
 .form-group {
-
-  label {
     color: white;
-  }
+
    input {
      background-color: black;
    }
-  button {
-    background-color: black;
-  }
+}
 
+button {
+  background-color: black;
+  margin-top: 50px;
+}
+.contact {
+  text-align: center;
+  color: white;
+  margin-top: 90px;
+  font-size: 7em;
+}
+.container {
+  margin-top:90px;
 }
