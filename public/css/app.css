@@ -10179,19 +10179,6 @@ a.text-dark:hover, a.text-dark:focus {
   min-height: calc(100vh - 56px);
 }
 
-.wave {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-.wave + .wave {
-  z-index: 2;
-}
-
 .carousel {
   height: calc(100vh - 56px);
   margin: auto;
@@ -10246,6 +10233,7 @@ a.text-dark:hover, a.text-dark:focus {
 .card:hover {
   background: rgba(128, 128, 128, 0.3);
   box-shadow: 5px 5px 0 rgba(227, 195, 87, 0.3);
+  color: #0b2e13;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -10258,6 +10246,43 @@ a.text-dark:hover, a.text-dark:focus {
 .card * {
   color: #fff;
   text-align: center;
+}
+
+.gear {
+  width: 100px;
+  -webkit-animation: rotate infinite 40s linear;
+          animation: rotate infinite 40s linear;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.gear:hover {
+  -webkit-animation: rotate infinite 1s linear;
+          animation: rotate infinite 1s linear;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
 }
 
 .form-group {

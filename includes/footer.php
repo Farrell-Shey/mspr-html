@@ -1,7 +1,6 @@
 </main>
-<footer id="footer" class="wave-container">
-    <div class="wave"></div>
-    <div class="wave"></div>
+<footer id="footer" class="bg-transparent" style="background-image: url(public/image/backgound.png)">
+    <img src="public/image/test.png" alt="rouage qui tourne" class="gear">
 </footer>
 <script src="public/js/manifest.js"></script>
 <script src="public/js/vendor.js"></script>

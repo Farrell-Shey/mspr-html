@@ -1,0 +1,18 @@
+.gear{
+  width: 100px;
+  animation: rotate infinite 40s linear;
+  transition: all .5s ease;
+  &:hover{
+    animation: rotate infinite 1s linear;
+    transition: all .5s ease;
+  }
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(1turn);
+  }
+}
