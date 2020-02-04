@@ -1,0 +1,21 @@
+.card{
+  margin: 5% 10%;
+  border-radius: 15px;
+  border: 1px solid $gold;
+  background: transparent;
+  transition: 0.2s;
+  &:hover{
+    background: rgba(grey, .30);
+    box-shadow: $box-shadow;
+    transition: 0.2s;
+  }
+  img{
+    max-width: 300px;
+    margin: auto;
+  }
+  *{
+    color: $white;
+    text-align: center;
+  }
+
+}
