@@ -26,7 +26,12 @@
 .card-lg{
   background: #6c757d;
   border-radius: $border-radius;
-  box-shadow: $box-shadow-white;
+  box-shadow: $box-shadow-white, $box-shadow-gold;
+  transition: .2s ease;
+  &:hover{
+    box-shadow: inset $box-shadow-gold, inset $box-shadow-white;
+    transition: .2s ease;
+  }
   img{
     max-width: 100%;
   }
@@ -34,9 +39,14 @@
 .card-sm{
   background: #6c757d;
   border-radius: $border-radius;
-  box-shadow: $box-shadow-white;
+  box-shadow: $box-shadow-white, $box-shadow-gold;
   margin-bottom: 10px;
   max-width: 300px;
+  transition: .2s ease;
+  &:hover{
+    box-shadow: inset $box-shadow-gold, inset $box-shadow-white;
+    transition: .2s ease;
+  }
   img{
     max-width: 100%;
   }

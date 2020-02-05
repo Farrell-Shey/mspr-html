@@ -1,0 +1,23 @@
+li{min-width:50px;}
+li a {
+  text-decoration:none;
+  line-height: 70px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 1.3em;
+  color: $gold;
+  text-transform: uppercase;
+}
+li a:before {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+li a:hover:before{
+  width: 90%;
+  background: $gold;
+}
