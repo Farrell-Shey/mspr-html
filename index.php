@@ -1,5 +1,5 @@
 <?php require_once 'includes/header.php'; ?>
-
+<div class="container">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -8,19 +8,19 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="public/image/iphone-noir-caviar.png" class="d-block w-100" alt="skeleton black">
+                <img src="public/image/iphone-noir-caviar500px.png" class="d-block w-100" alt="skeleton black">
                 <div class="carousel-caption d-none d-md-block">
                     <p>Génial</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="public/image/tourbillon-carbon.png" class="d-block w-100" alt="tourbillon-carbon">
+                <img src="public/image/tourbillon500px.png" class="d-block w-100" alt="tourbillon-carbon">
                 <div class="carousel-caption d-none d-md-block">
                     <p>Fabuleux</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="public/image/discovery-mars.png" class="d-block w-100" alt="discovery mars">
+                <img src="public/image/discovery-mars500px.png" class="d-block w-100" alt="discovery mars">
                 <div class="carousel-caption d-none d-md-block">
                     <p>Luxueux</p>
                 </div>
@@ -35,5 +35,9 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
-<?php require_once 'includes/footer.php'; ?>
+</div>
+<script src="public/js/manifest.js"></script>
+<script src="public/js/vendor.js"></script>
+<script src="public/js/app.js"></script>
+</body>
+</html>
