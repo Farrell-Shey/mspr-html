@@ -23,7 +23,7 @@
                     <a class="nav-link" href="http://localhost/mspr-html/">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Marque</a>
+                    <a class="nav-link" href="http://localhost/mspr-html/marque">Marque</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="http://localhost/mspr-html/produit#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
