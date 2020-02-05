@@ -10367,9 +10367,13 @@ button {
 }
 
 .contact {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 300px;
+  margin-left: -300px;
+  float: left !important;
   text-align: center;
   color: white;
-  margin-top: 90px;
   font-size: 7em;
 }
 
@@ -10435,6 +10439,20 @@ button {
   }
 }
 
+.caviar {
+  text-align: center;
+  color: #fff;
+  font-size: 10em;
+}
+
+.paragraph {
+  color: #fff;
+}
+
+.slogan {
+  color: #fff;
+}
+
 .form-group {
   color: white;
 }
@@ -10449,9 +10467,13 @@ button {
 }
 
 .contact {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 300px;
+  margin-left: -300px;
+  float: left !important;
   text-align: center;
   color: white;
-  margin-top: 90px;
   font-size: 7em;
 }
 
