@@ -1,43 +1,19 @@
 <?php require_once 'includes/header.php'; ?>
-<div class="container">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="public/image/iphone-noir-caviar500px.png" class="d-block w-100" alt="skeleton black">
-                <div class="carousel-caption d-none d-md-block">
-                    <p>Génial</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="public/image/tourbillon500px.png" class="d-block w-100" alt="tourbillon-carbon">
-                <div class="carousel-caption d-none d-md-block">
-                    <p>Fabuleux</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="public/image/discovery-mars500px.png" class="d-block w-100" alt="discovery mars">
-                <div class="carousel-caption d-none d-md-block">
-                    <p>Luxueux</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+<section class="jumbotron">
+    <div class="container-fluid">
+        <h1>Collection : Iphone Grande Complication CAVIAR</h1>
+        <span>CAVIAR : la différence à l'état <b class="golden">pur</b></span>
+        <img src="public/image/tourbillon-carbon-2.png" alt="grand complication tourbillon carbon">
     </div>
-</div>
-<script src="public/js/manifest.js"></script>
-<script src="public/js/vendor.js"></script>
-<script src="public/js/app.js"></script>
-</body>
-</html>
+</section>
+<section class="bg-fix" style="background-image: url(#)">
+    <div class="container-fluid">
+        <h2>Une finitions Inégalée</h2>
+    </div>
+    <div class="bg-dark">
+        <div class="container-fluid">
+            <blockquote class="blockquote">j'adore cet iphone</blockquote>
+        </div>
+    </div>
+</section>
+<?php require_once 'includes/footer.php'; ?>

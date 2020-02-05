@@ -1,0 +1,13 @@
+.blockquote{
+  font-style: italic;
+  text-align: center;
+  &:before{
+    background-image: url(../public/image/quote.png);
+    vertical-align: top;
+  }
+  &:after{
+    background-image: url("..public/image/quote.png");
+    transform: rotate(90deg);
+    vertical-align: baseline;
+  }
+}

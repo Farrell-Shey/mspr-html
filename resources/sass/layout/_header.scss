@@ -2,13 +2,13 @@ li{min-width:50px;}
 li a {
   text-decoration:none;
   line-height: 70px;
-  padding: 0 10px;
+  padding: -10px;
   text-align: center;
   font-size: 1.3em;
   color: $gold;
   text-transform: uppercase;
 }
-li a:before {
+li:after{
   content: '';
   display: block;
   margin: auto;
@@ -17,7 +17,10 @@ li a:before {
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
 }
-li a:hover:before{
+li:hover:after{
   width: 90%;
   background: $gold;
+}
+.nav-link{
+  padding: 0;
 }

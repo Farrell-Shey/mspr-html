@@ -10179,6 +10179,12 @@ a.text-dark:hover, a.text-dark:focus {
   min-height: calc(100vh - 56px);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
 li {
   min-width: 50px;
 }
@@ -10186,14 +10192,14 @@ li {
 li a {
   text-decoration: none;
   line-height: 70px;
-  padding: 0 10px;
+  padding: -10px;
   text-align: center;
   font-size: 1.3em;
   color: #e3c357;
   text-transform: uppercase;
 }
 
-li a:before {
+li:after {
   content: '';
   display: block;
   margin: auto;
@@ -10204,39 +10210,36 @@ li a:before {
   transition: width .5s ease, background-color .5s ease;
 }
 
-li a:hover:before {
+li:hover:after {
   width: 90%;
   background: #e3c357;
 }
 
-.carousel {
-  height: calc(100vh - 56px);
-  margin: auto;
+.nav-link {
   padding: 0;
 }
 
-.carousel .carousel-indicators li {
-  border: 10px;
-  padding: 0;
-  height: 30px;
-  width: 30px;
-  background-color: #f8f9fa;
-  border-radius: 50em;
-  -webkit-transition: .2s ease-out;
-  transition: .2s ease-out;
+golden {
+  -webkit-animation: pulse 1s infinite linear;
+          animation: pulse 1s infinite linear;
 }
 
-.carousel .carousel-indicators li[class="active"] {
-  -webkit-transition: .2s ease-out;
-  transition: .2s ease-out;
+@-webkit-keyframes pulse {
+  0% {
+    color: #e3c357;
+  }
+  100% {
+    color: #FFFB6F;
+  }
 }
 
-.carousel .carousel-inner .carousel-item img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+@keyframes pulse {
+  0% {
+    color: #e3c357;
+  }
+  100% {
+    color: #FFFB6F;
+  }
 }
 
 .jumbotron {
@@ -10246,6 +10249,11 @@ li a:hover:before {
 
 .jumbotron h1 {
   color: #fff;
+  text-align: center;
+}
+
+.jumbotron span {
+  color: white;
   text-align: center;
 }
 
@@ -10433,6 +10441,10 @@ button {
   100% {
     border-color: transparent;
   }
+}
+
+.caviar {
+  color: #fff;
 }
 
 .form-group {

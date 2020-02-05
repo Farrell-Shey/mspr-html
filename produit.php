@@ -2,7 +2,7 @@
 
 <section class="jumbotron">
     <div class="row">
-        <div class="col">
+        <div class="col-3">
             <div class="card-lg">
                 <img src="public/image/tourbillon-carbon-2.png">
             </div>
