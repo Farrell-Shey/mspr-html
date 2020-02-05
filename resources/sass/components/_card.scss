@@ -22,3 +22,22 @@
   }
 
 }
+
+.card-lg{
+  background: #6c757d;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow-white;
+  img{
+    max-width: 100%;
+  }
+}
+.card-sm{
+  background: #6c757d;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow-white;
+  margin-bottom: 10px;
+  max-width: 300px;
+  img{
+    max-width: 100%;
+  }
+}

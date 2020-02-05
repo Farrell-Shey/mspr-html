@@ -17,7 +17,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="border: #0b2e13 1px solid">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="http://localhost/mspr-html/">Accueil</a>

@@ -10248,6 +10248,28 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center;
 }
 
+.card-lg {
+  background: #6c757d;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 5px 2px rgba(255, 255, 255, 0.3);
+}
+
+.card-lg img {
+  max-width: 100%;
+}
+
+.card-sm {
+  background: #6c757d;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 5px 2px rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+.card-sm img {
+  max-width: 100%;
+}
+
 .gear {
   width: 100px;
   -webkit-animation: rotate infinite 40s linear;
