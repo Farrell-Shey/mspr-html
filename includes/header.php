@@ -36,9 +36,9 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item item-category" href="produits">Liste des produits</a></li>
-                        <li><a class="dropdown-item" href="#">Skeleton Black</a></li>
-                        <li><a class="dropdown-item" href="#">Tourbillon Carbon</a></li>
-                        <li><a class="dropdown-item" href="#">Discorvery Mars</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/mspr-html/produit-black-skeleton">Skeleton Black</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/mspr-html/produit-tourbillon-carbon">Tourbillon Carbon</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/mspr-html/produit-mars">Discorvery Mars</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

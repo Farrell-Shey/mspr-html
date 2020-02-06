@@ -20,14 +20,17 @@ button {
 }
   transform: rotate(90deg);
   margin-top: 300px;
-  margin-left:-300px;
+  margin-left:-200px;
   @include float-left;
   text-align: center;
   color: white;
-  font-size: 7em;
+  font-size:7em;
 
 }
 
 .container {
-  margin-top:90px;
+  margin-top:150px;
 }
+ .ligne-bas {
+   margin-top:250px;
+ }

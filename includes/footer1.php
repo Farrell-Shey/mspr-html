@@ -38,8 +38,8 @@
 
     </div>
 
-    <div class="footer-copyright ">© 2020 Copyright:
-      <a href="#"> caviar.com</a>
+    <div class="footer-copyright">© 2020 Copyright:
+      <a>caviar.com</a>
     </div>
 
     </footer>

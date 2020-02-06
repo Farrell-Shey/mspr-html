@@ -39,7 +39,7 @@
 
     </div>
 
-    <img class="ligne" src="public/image/line-return.svg" alt="ligne ">
+    <img class="ligne-bas" src="public/image/line-return.svg" alt="ligne ">
 
 </form>
 

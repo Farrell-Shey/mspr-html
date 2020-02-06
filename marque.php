@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
 
-            <div class="col image">
-                <img src="public/image/client-iphone.png" alt="Vieux monsieur avec un iPhone">
+            <div class="col">
+                <img class="vieux" src="public/image/client-iphone.png" alt="Vieux monsieur avec un iPhone">
             </div>
 
             <div class="col align-self-center">
