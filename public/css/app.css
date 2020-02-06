@@ -10183,7 +10183,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0;
   margin: 0;
   color: #fff;
-  font-family: 'Dancing Script', cursive !important;
+  font-family: 'Dancing Script', cursive;
+}
+
+.bg-fix {
+  padding: 100px;
+  background: no-repeat center;
 }
 
 li {
@@ -10280,6 +10285,7 @@ li:hover:after {
 .jumbotron {
   background: #343a40;
   border-radius: 0;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -10493,6 +10499,11 @@ button {
   }
 }
 
+.h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .caviar {
   color: red;
   text-align: center;
@@ -10512,6 +10523,10 @@ button {
   max-width: 500px;
   margin: auto;
   display: block;
+}
+
+.tweet {
+  margin: 10px;
 }
 
 .blockquote {
