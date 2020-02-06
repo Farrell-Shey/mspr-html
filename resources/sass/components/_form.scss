@@ -11,6 +11,13 @@ button {
   margin-top: 50px;
 }
 .contact {
+  @media (max-width: 1200px){
+  transform: rotate(0deg);
+    font-size:3em;
+    @include float-none;
+    margin-top: 50px;
+    margin-left:0px;
+}
   transform: rotate(90deg);
   margin-top: 300px;
   margin-left:-300px;
@@ -18,9 +25,6 @@ button {
   text-align: center;
   color: white;
   font-size: 7em;
-}
-
-.contact {
 
 }
 

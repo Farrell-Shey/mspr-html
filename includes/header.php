@@ -26,17 +26,18 @@
                     <a class="nav-link" href="http://localhost/mspr-html/marque">Marque</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://localhost/mspr-html/produit#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="http://localhost/mspr-html/produits" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Nos Produits
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Skeleton Black</a>
-                        <a class="dropdown-item" href="#">Tourbillon Carbon</a>
-                        <a class="dropdown-item" href="#">Discorvery Mars</a>
+                        <a class="dropdown-item" href="http://localhost/mspr-html/produits">Tout nos produits</a>
+                        <a class="dropdown-item" href="http://localhost/mspr-html/produit-black-skeleton">Skeleton Black</a>
+                        <a class="dropdown-item" href="http://localhost/mspr-html/produit-tourbillon-carbon">Tourbillon Carbon</a>
+                        <a class="dropdown-item" href="http://localhost/mspr-html/produit-mars">Discorvery Mars</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/mspr-html/contact">Nous Contactez</a>
+                    <a class="nav-link" href="http://localhost/mspr-html/contact">Nous Contacter</a>
                 </li>
             </ul>
         </div>
