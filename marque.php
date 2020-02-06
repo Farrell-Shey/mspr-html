@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col align-self-start">
+            <div class="col image">
                 <img src="public/image/client-iphone.png" alt="Vieux monsieur avec un iPhone">
             </div>
 
