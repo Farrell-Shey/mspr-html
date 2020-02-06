@@ -10509,22 +10509,58 @@ button {
 }
 
 .caviar {
-  color: red;
   text-align: center;
   color: #fff;
   font-size: 10em;
 }
 
+@media (max-width: 1200px) {
+  .caviar {
+    font-size: 5em;
+    margin-top: -70px;
+  }
+}
+
 .paragraph {
+  font-size: 1.5em;
+  font-family: "Baskerville Old Face";
   color: #fff;
+  margin-top: 100px;
+}
+
+@media (max-width: 1200px) {
+  .paragraph {
+    margin-top: 100px;
+    font-family: "Baskerville Old Face";
+  }
 }
 
 .slogan {
+  margin-top: -300px;
   color: #fff;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  font-size: 2em;
+}
+
+@media (max-width: 1200px) {
+  .slogan {
+    margin-top: -900px;
+    margin-right: -1700px;
+    font-size: 1em;
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
 }
 
 .vieux {
-  padding-top: 100px;
+  float: right !important;
+}
+
+@media (max-width: 1200px) {
+  .vieux {
+    margin-top: 100px;
+  }
 }
 
 .img {
