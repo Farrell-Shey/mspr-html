@@ -40,7 +40,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/mspr-html/contact">Nous Contactez</a>
+                    <a class="nav-link" href="http://localhost/mspr-html/contact">Nous Contacter</a>
                 </li>
             </ul>
         </div>

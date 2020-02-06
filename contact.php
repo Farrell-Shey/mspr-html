@@ -1,9 +1,9 @@
 <?php require_once 'includes/header.php'; ?>
-
-        <h1 class="contact">Nous Contacter</h1>
+<img class="ligne" src="public/image/line.svg" alt="ligne ">
+<h1 class="contact">Nous Contacter</h1>
 
 <form>
-    <div class="container" >
+    <div class="container">
 
         <div class="form-group">
 
@@ -39,7 +39,9 @@
 
     </div>
 
+    <img class="ligne" src="public/image/line-return.svg" alt="ligne ">
+
 </form>
 
 
-<?php require_once 'includes/footer.php'; ?>
+

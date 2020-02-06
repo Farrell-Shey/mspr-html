@@ -10407,6 +10407,17 @@ button {
   font-size: 7em;
 }
 
+@media (max-width: 1200px) {
+  .contact {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    font-size: 3em;
+    float: none !important;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+}
+
 .container {
   margin-top: 90px;
 }
@@ -10503,6 +10514,17 @@ button {
   text-align: center;
   color: white;
   font-size: 7em;
+}
+
+@media (max-width: 1200px) {
+  .contact {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    font-size: 3em;
+    float: none !important;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
 }
 
 .container {
