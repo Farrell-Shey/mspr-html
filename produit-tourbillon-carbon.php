@@ -19,12 +19,11 @@
             <div class="typewriter">
                 <h1>GRAND COMPLICATIONS TOURBILLON CARBON</h1>
             </div>
-            <p class="text-white">Iphone forgé dans un cimetière de héros, inconnu de tous crée à l'aide d'or jaune et
-                noir. Les héros de l'ancien temps vous porteront au sein de vos journées quand vous aurez cette oeuvre
-                dans vos mains.
-                iphone mars : Cet iphone forgé par le dieu de la guerre au cœur de sa propre planète, il vous aura
-                laissé un présent visible sur cet iphone pour vous souvenir de la divinité que vous aurez entre vos
-                mains.</p>
+            <p class="text-white">Cet iphone a été forger dans la braise de l'ouragan lunaire le 10 octobre 2020 en
+                effet les astronautes n'avaient pas calculé les risques d'un tourbillon de carbone sur la lune mais par
+                miracle l'un d'eux a fait tomber son iphone et par les chocs violents c'est forger cette beauté de
+                technologie pour vous rappeler à quel point la différence vous rend immense
+            </p>
         </div>
     </div>
 </section>
