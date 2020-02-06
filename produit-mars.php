@@ -27,4 +27,4 @@
         </div>
     </section>
 
-<?php require_once 'includes/footer.php'; ?>
+<?php require_once 'includes/footer1.php'; ?>
