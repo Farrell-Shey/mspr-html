@@ -1,11 +1,22 @@
-golden{
-  animation:pulse 1s infinite linear;
-}
-@keyframes pulse {
-  0%{
-    color: $gold;
+
+.align-content-center {
+  display: block;
+  text-align: center !important;
+  border: green 1px solid;
+
+  .golden {
+    animation: pulse 3s infinite linear;
   }
-  100%{
-    color: #FFFB6F;
+
+  @keyframes pulse {
+    0% {
+      color: $gold;
+    }
+    50% {
+      color: #FFFB6F;
+    }
+    100%{
+      color: $gold;
+    }
   }
 }

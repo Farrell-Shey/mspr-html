@@ -1,13 +1,38 @@
-.blockquote{
+.blockquote {
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
   font-style: italic;
   text-align: center;
-  &:before{
-   // background-image: url(../public/image/quote.png);
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url(../image/quote.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
     vertical-align: top;
   }
-  &:after{
-   // background-image: url("..public/image/quote.png");
-    transform: rotate(90deg);
+
+  &:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: '';
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url(../image/quote.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
     vertical-align: baseline;
   }
 }

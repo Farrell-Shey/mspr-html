@@ -10183,6 +10183,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0;
   margin: 0;
   color: #fff;
+  font-family: 'Dancing Script', cursive !important;
 }
 
 li {
@@ -10241,17 +10242,26 @@ li:hover:after {
   background-color: #6f6f6f;
 }
 
-golden {
-  -webkit-animation: pulse 1s infinite linear;
-          animation: pulse 1s infinite linear;
+.align-content-center {
+  display: block;
+  text-align: center !important;
+  border: green 1px solid;
+}
+
+.align-content-center .golden {
+  -webkit-animation: pulse 3s infinite linear;
+          animation: pulse 3s infinite linear;
 }
 
 @-webkit-keyframes pulse {
   0% {
     color: #e3c357;
   }
-  100% {
+  50% {
     color: #FFFB6F;
+  }
+  100% {
+    color: #e3c357;
   }
 }
 
@@ -10259,8 +10269,11 @@ golden {
   0% {
     color: #e3c357;
   }
-  100% {
+  50% {
     color: #FFFB6F;
+  }
+  100% {
+    color: #e3c357;
   }
 }
 
@@ -10482,6 +10495,9 @@ button {
 
 .caviar {
   color: red;
+  text-align: center;
+  color: #fff;
+  font-size: 10em;
 }
 
 .paragraph {
@@ -10490,6 +10506,52 @@ button {
 
 .slogan {
   color: #fff;
+}
+
+.img {
+  max-width: 500px;
+  margin: auto;
+  display: block;
+}
+
+.blockquote {
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+  font-style: italic;
+  text-align: center;
+}
+
+.blockquote:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../image/quote.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align: top;
+}
+
+.blockquote:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: '';
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../image/quote.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  vertical-align: baseline;
 }
 
 .form-group {

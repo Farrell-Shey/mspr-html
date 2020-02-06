@@ -2,8 +2,8 @@
 <section class="jumbotron">
     <div class="container-fluid">
         <h1>Collection : Iphone Grande Complication CAVIAR</h1>
-        <span>CAVIAR : la différence à l'état <b class="golden">pur</b></span>
-        <img src="public/image/tourbillon-carbon-2.png" alt="grand complication tourbillon carbon">
+        <span class="align-content-center">CAVIAR : la différence à l'état <b class="golden">pur</b></span>
+        <img src="public/image/tourbillon-carbon-2.png" alt="grand complication tourbillon carbon" class="img">
     </div>
 </section>
 <section class="bg-fix" style="background-image: url(#)">
