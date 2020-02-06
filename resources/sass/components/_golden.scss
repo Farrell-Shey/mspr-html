@@ -1,11 +1,13 @@
 
 .align-content-center {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
   display: block;
   text-align: center !important;
-  border: green 1px solid;
 
   .golden {
     animation: pulse 3s infinite linear;
+    text-transform: uppercase;
   }
 
   @keyframes pulse {

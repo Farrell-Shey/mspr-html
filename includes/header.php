@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6aef1e111a.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="public/css/app.css">
 </head>
 <body>

@@ -1,4 +1,6 @@
-<?php require_once 'includes/header.php'; ?>
+<?php
+$title = "Nos Produits";
+require_once 'includes/header.php'; ?>
 
 <section class="jumbotron">
     <h1 class="">Nos Innovations Iphone 11 Pro</h1>

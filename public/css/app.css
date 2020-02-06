@@ -10184,11 +10184,12 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0;
   color: #fff;
   font-family: 'Dancing Script', cursive;
+  text-decoration: none;
 }
 
 .bg-fix {
   padding: 100px;
-  background: no-repeat center;
+  background: no-repeat center fixed;
 }
 
 li {
@@ -10247,15 +10248,25 @@ li:hover:after {
   background-color: #6f6f6f;
 }
 
+.navbar {
+  box-shadow: 0 -1px 4px 0 rgba(255, 255, 255, 0.15);
+}
+
+footer {
+  padding: 20px;
+}
+
 .align-content-center {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
   display: block;
   text-align: center !important;
-  border: green 1px solid;
 }
 
 .align-content-center .golden {
   -webkit-animation: pulse 3s infinite linear;
           animation: pulse 3s infinite linear;
+  text-transform: uppercase;
 }
 
 @-webkit-keyframes pulse {
@@ -10567,6 +10578,12 @@ button {
   max-width: 500px;
   margin: auto;
   display: block;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.15);
+}
+
+.img:hover {
+  box-shadow: 0 0 7px 0 rgba(255, 255, 255, 0.15);
 }
 
 .tweet {

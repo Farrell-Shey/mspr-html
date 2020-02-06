@@ -1,4 +1,6 @@
-<?php require_once 'includes/header.php'; ?>
+<?php
+$title = "Black skeleton";
+require_once 'includes/header.php'; ?>
 
 <section class="jumbotron">
     <div class="row">

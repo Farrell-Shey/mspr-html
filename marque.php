@@ -1,4 +1,6 @@
-<?php require_once 'includes/header.php'; ?>
+<?php
+$title = "marque caviar";
+require_once 'includes/header.php'; ?>
     <div class="container">
         <div class="titre">
             <h1 class="caviar">CAVIAR</h1>

@@ -1,4 +1,6 @@
-<?php require_once 'includes/header.php'; ?>
+<?php
+$title = "contact";
+require_once 'includes/header.php'; ?>
 <img class="ligne" src="public/image/line.svg" alt="ligne ">
 <h1 class="contact">Nous Contacter</h1>
 

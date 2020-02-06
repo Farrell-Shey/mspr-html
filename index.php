@@ -1,4 +1,6 @@
-<?php require_once 'includes/header.php'; ?>
+<?php
+$title = "Page d'accueil";
+require_once 'includes/header.php'; ?>
 <section class="jumbotron">
     <div class="container-fluid">
         <h1>Collection : Iphone Grande Complication CAVIAR</h1>
@@ -6,7 +8,7 @@
         <img src="public/image/tourbillon-carbon-2.png" alt="grand complication tourbillon carbon" class="img">
     </div>
 </section>
-<section class="bg-fix"  style="background-image: url(public/image/bg-gold.jpg)">
+<section class="bg-fix"  style="background-image: url(public/image/bg-vitton.jpg)">
     <div class="container-fluid">
         <h2 class="h2">Une finition Inégalée</h2>
     </div>
