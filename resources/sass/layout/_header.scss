@@ -55,3 +55,24 @@
 .navbar{
   box-shadow: 0 -1px 4px 0 rgba(255,255,255,0.15);
 }
+
+.nav-item:last-child{
+  margin-left: 5px;
+  border-radius: 50px;
+  border: $gold 1px solid;
+  transition: .2s ease;
+  &:hover{
+    border: $white 1px solid;
+    transition: .2s ease;
+  }
+  &:hover:after {
+    width: 0;
+    background: transparent;
+  }
+  .nav-link{
+    color: $gold !important;
+  &:hover{
+    color: $white !important;
+  }
+  }
+}

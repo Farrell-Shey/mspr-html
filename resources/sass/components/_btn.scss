@@ -1,0 +1,9 @@
+.btn-contact{
+  color: $gold;
+  position: absolute;
+  text-align: center;
+  &:hover{
+    text-decoration: none;
+    color: $gold;
+  }
+}

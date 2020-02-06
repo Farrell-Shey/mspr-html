@@ -10252,6 +10252,33 @@ li:hover:after {
   box-shadow: 0 -1px 4px 0 rgba(255, 255, 255, 0.15);
 }
 
+.nav-item:last-child {
+  margin-left: 5px;
+  border-radius: 50px;
+  border: #e3c357 1px solid;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.nav-item:last-child:hover {
+  border: #fff 1px solid;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.nav-item:last-child:hover:after {
+  width: 0;
+  background: transparent;
+}
+
+.nav-item:last-child .nav-link {
+  color: #e3c357 !important;
+}
+
+.nav-item:last-child .nav-link:hover {
+  color: #fff !important;
+}
+
 footer {
   padding: 20px;
 }
@@ -10630,6 +10657,11 @@ button {
   vertical-align: baseline;
 }
 
+.border-radius {
+  border-radius: 0.25rem;
+  background: transparent;
+}
+
 .form-group {
   color: white;
 }
@@ -10671,4 +10703,15 @@ button {
 
 .ligne-bas {
   margin-top: 250px;
+}
+
+.btn-contact {
+  color: #e3c357;
+  position: absolute;
+  text-align: center;
+}
+
+.btn-contact:hover {
+  text-decoration: none;
+  color: #e3c357;
 }

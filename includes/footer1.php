@@ -11,7 +11,7 @@
         <div class="col-md-6 ">
 
 
-          <h5 class="text-uppercase ">Footer text 1</h5>
+          <strong class="text-uppercase ">Découvrez aussi nos produits Louis Vuitton</strong>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
             repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
             harum esse fugiat. Itaque, culpa?</p>
@@ -25,10 +25,20 @@
         <div class="col-md-6 ">
 
 
-          <h5 class="text-uppercase"> Footer text 2</h5>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
-            commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
-            excepturi hic.</p>
+          <strong class="text-uppercase"> Vous Avez besoin d'aide?</strong>
+          <p>Suivez nous sur :</p>
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-pinterest-square"></i></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <a href="contact" class="btn-contact"><img src="public/image/gear.png" alt="un rouage qui tourne" class="gear">
+                    Nous Contactez directement</a>
+                </div>
+            </div>
 
         </div>
 

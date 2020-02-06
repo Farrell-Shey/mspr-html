@@ -10,9 +10,9 @@ require_once 'includes/header.php'; ?>
 </section>
 <section class="bg-fix"  style="background-image: url(public/image/bg-vitton.jpg)">
     <div class="container-fluid">
-        <h2 class="h2">Une finition Inégalée</h2>
+        <h2 class="h2">Des clients Statisfaits</h2>
     </div>
-    <div class="bg-dark">
+    <div class="border-radius">
         <div class="container-fluid">
             <blockquote class="blockquote">
                 <div class="row">
@@ -26,5 +26,4 @@ require_once 'includes/header.php'; ?>
             </blockquote>
         </div>
     </div>
-</section>
 <?php require_once 'includes/footer1.php'; ?>
