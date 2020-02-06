@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2edab61-3fff-4d47-af77-fde5a26a012d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/sass/components/_blockquote.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/client-iphone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/produit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marque.php" beforeDir="false" afterPath="$PROJECT_DIR$/marque.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_golden.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/_blockquote.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_blockquote.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/components/_caviar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_caviar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +71,8 @@
       <workItem from="1580727785263" duration="602000" />
       <workItem from="1580740866697" duration="199000" />
       <workItem from="1580803781180" duration="13949000" />
-      <workItem from="1580892290061" duration="8268000" />
-      <workItem from="1580909622935" duration="5876000" />
+      <workItem from="1580892290061" duration="8411000" />
+      <workItem from="1580909327680" duration="4014000" />
     </task>
     <servers />
   </component>

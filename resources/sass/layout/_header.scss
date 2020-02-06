@@ -1,7 +1,7 @@
 li{min-width:50px;}
 li a {
   text-decoration:none;
-  line-height: 70px;
+  line-height: 50px;
   padding: -10px;
   text-align: center;
   font-size: 1.3em;
@@ -23,4 +23,24 @@ li:hover:after{
 }
 .nav-link{
   padding: 0;
+}
+
+.dropdown-item{
+  color: $white;
+  &:hover{
+    background-color: #6f6f6f;
+    color: $gold;
+  }
+}
+
+.item-category{
+  color: $gold;
+  font-weight: bold;
+  &:hover{
+    color: $white;
+  }
+}
+
+.dropdown-menu{
+  background-color: #6f6f6f;
 }

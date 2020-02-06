@@ -10191,7 +10191,7 @@ li {
 
 li a {
   text-decoration: none;
-  line-height: 70px;
+  line-height: 50px;
   padding: -10px;
   text-align: center;
   font-size: 1.3em;
@@ -10217,6 +10217,28 @@ li:hover:after {
 
 .nav-link {
   padding: 0;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #6f6f6f;
+  color: #e3c357;
+}
+
+.item-category {
+  color: #e3c357;
+  font-weight: bold;
+}
+
+.item-category:hover {
+  color: #fff;
+}
+
+.dropdown-menu {
+  background-color: #6f6f6f;
 }
 
 golden {
@@ -10375,9 +10397,13 @@ button {
 }
 
 .contact {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 300px;
+  margin-left: -300px;
+  float: left !important;
   text-align: center;
   color: white;
-  margin-top: 90px;
   font-size: 7em;
 }
 
@@ -10444,6 +10470,14 @@ button {
 }
 
 .caviar {
+  color: red;
+}
+
+.paragraph {
+  color: #fff;
+}
+
+.slogan {
   color: #fff;
 }
 
@@ -10461,9 +10495,13 @@ button {
 }
 
 .contact {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 300px;
+  margin-left: -300px;
+  float: left !important;
   text-align: center;
   color: white;
-  margin-top: 90px;
   font-size: 7em;
 }
 
