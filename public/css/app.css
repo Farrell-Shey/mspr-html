@@ -10733,3 +10733,23 @@ button {
   text-decoration: none;
   color: #e3c357;
 }
+
+.politique {
+  text-align: center;
+}
+
+.politique h2 {
+  font-family: "Baskerville Old Face";
+}
+
+.politique a {
+  font-family: "Baskerville Old Face";
+}
+
+.politique h3 {
+  font-family: "Baskerville Old Face";
+}
+
+.politique p {
+  font-family: "Baskerville Old Face";
+}

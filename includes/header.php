@@ -13,7 +13,7 @@
 <body>
 <header id="header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand">
             <img src="public/image/logo.png" alt="logo de caviar royal gift">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
