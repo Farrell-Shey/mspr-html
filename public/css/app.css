@@ -10350,7 +10350,6 @@ footer {
 .card:hover {
   background: rgba(128, 128, 128, 0.3);
   box-shadow: 5px 5px 0 rgba(227, 195, 87, 0.3);
-  color: #0b2e13;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -10366,6 +10365,7 @@ footer {
 }
 
 .card-lg {
+  min-width: 300px;
   background: #6c757d;
   border-radius: 0.25rem;
   box-shadow: 1px 1px 2px 0px rgba(255, 255, 255, 0.3), -1px -1px 2px 0px rgba(227, 195, 87, 0.3);
@@ -10388,6 +10388,7 @@ footer {
   border-radius: 0.25rem;
   box-shadow: 1px 1px 2px 0px rgba(255, 255, 255, 0.3), -1px -1px 2px 0px rgba(227, 195, 87, 0.3);
   margin-bottom: 10px;
+  min-width: 150px;
   max-width: 300px;
   -webkit-transition: .2s ease;
   transition: .2s ease;
@@ -10607,6 +10608,23 @@ button {
   display: block;
   border-radius: 0.25rem;
   box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.15);
+}
+
+.img:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: '>';
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../image/quote.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  vertical-align: baseline;
 }
 
 .img:hover {

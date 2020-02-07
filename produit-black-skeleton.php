@@ -4,12 +4,12 @@ require_once 'includes/header.php'; ?>
 
 <section class="jumbotron">
     <div class="row">
-        <div class="col-3">
+        <div class="col">
             <div class="card-lg">
                 <img src="public/image/iphone-noir-caviar.png">
             </div>
         </div>
-        <div class="col-3">
+        <div class="col">
             <div class="card-sm">
                 <img src="public/image/iphone-noir-1.png">
             </div>

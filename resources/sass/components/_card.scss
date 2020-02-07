@@ -9,7 +9,6 @@
   &:hover{
     background: rgba(grey, .30);
     box-shadow: $box-shadow;
-    color: #0b2e13;
     transition: 0.2s;
   }
   img{
@@ -24,6 +23,7 @@
 }
 
 .card-lg{
+  min-width: 300px;
   background: #6c757d;
   border-radius: $border-radius;
   box-shadow: $box-shadow-white, $box-shadow-gold;
@@ -41,6 +41,7 @@
   border-radius: $border-radius;
   box-shadow: $box-shadow-white, $box-shadow-gold;
   margin-bottom: 10px;
+  min-width: 150px;
   max-width: 300px;
   transition: .2s ease;
   &:hover{
