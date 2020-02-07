@@ -10283,6 +10283,30 @@ footer {
   padding: 20px;
 }
 
+footer .social-media {
+  display: block;
+  line-height: 5;
+}
+
+footer .social-media .fab {
+  margin: 10px;
+}
+
+footer .help {
+  line-height: 3;
+}
+
+footer .pol-conf {
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+footer .pol-conf:hover {
+  text-decoration: none;
+  color: #e3c357;
+}
+
 .align-content-center {
   margin-bottom: 20px;
   font-size: 1.5rem;
@@ -10415,15 +10439,16 @@ footer {
   max-width: 100%;
 }
 
-.gear {
-  width: 100px;
+a .gear {
+  width: 1.5rem;
   -webkit-animation: rotate infinite 40s linear;
           animation: rotate infinite 40s linear;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+  vertical-align: center;
 }
 
-.gear:hover {
+a:hover .gear {
   -webkit-animation: rotate infinite 1s linear;
           animation: rotate infinite 1s linear;
   -webkit-transition: all .5s ease;
@@ -10735,14 +10760,14 @@ button {
 }
 
 .btn-contact {
+  font-size: 1.5rem;
   color: #e3c357;
-  position: absolute;
   text-align: center;
 }
 
 .btn-contact:hover {
   text-decoration: none;
-  color: #e3c357;
+  color: #fff;
 }
 
 .politique {

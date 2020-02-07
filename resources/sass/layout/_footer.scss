@@ -1,3 +1,22 @@
 footer{
   padding: 20px;
+  .social-media{
+    display: block;
+    line-height: 5;
+    .fab{
+      margin: 10px;
+    }
+  }
+  .help{
+    line-height: 3;
+  }
+  .pol-conf{
+    display: block;
+    font-size: 1.5rem;
+    color: $white;
+    &:hover{
+      text-decoration: none;
+      color: $gold;
+    }
+  }
 }

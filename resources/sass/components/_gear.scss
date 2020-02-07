@@ -1,10 +1,16 @@
-.gear{
-  width: 100px;
-  animation: rotate infinite 40s linear;
-  transition: all .5s ease;
-  &:hover{
-    animation: rotate infinite 1s linear;
+a {
+  .gear {
+    width: 1.5rem;
+    animation: rotate infinite 40s linear;
     transition: all .5s ease;
+    vertical-align: center;
+  }
+
+  &:hover {
+    .gear {
+      animation: rotate infinite 1s linear;
+      transition: all .5s ease;
+    }
   }
 }
 
