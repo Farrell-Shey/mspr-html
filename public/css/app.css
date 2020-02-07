@@ -10457,11 +10457,11 @@ button {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   margin-top: 300px;
-  margin-left: -200px;
+  margin-left: -150px;
   float: left !important;
   text-align: center;
   color: white;
-  font-size: 7em;
+  font-size: 5em;
 }
 
 @media (max-width: 1200px) {
@@ -10679,11 +10679,11 @@ button {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   margin-top: 300px;
-  margin-left: -200px;
+  margin-left: -150px;
   float: left !important;
   text-align: center;
   color: white;
-  font-size: 7em;
+  font-size: 5em;
 }
 
 @media (max-width: 1200px) {
