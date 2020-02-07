@@ -1,15 +1,23 @@
 .card{
-  width: 330px;
+  max-width: 330px;
   height: 620px;
-  margin: 5% auto;
+  margin: 10% auto;
   border-radius: 15px;
   border: 1px solid $gold;
-  background: transparent;
+  background: black no-repeat bottom;
   transition: 0.2s;
   &:hover{
-    background: rgba(grey, .30);
     box-shadow: $box-shadow;
     transition: 0.2s;
+    figcaption{
+      text-decoration: none;
+    }
+    h2{
+      text-decoration: none;
+    }
+    p{
+      text-decoration: none;
+    }
   }
   img{
     max-width: 300px;

@@ -25,7 +25,13 @@ var slideUp = {
   origin: 'bottom',
   opacity: null
 };
+var item = {
+  delay: 375,
+  duration: 500,
+  reset: true
+};
 Object(scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.slide-up', slideUp);
+Object(scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.item', item);
 
 /***/ }),
 

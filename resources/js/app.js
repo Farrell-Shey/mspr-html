@@ -20,4 +20,12 @@ let slideUp = {
     opacity: null
 };
 
+let item = {
+    delay: 375,
+    duration: 500,
+    reset: true
+};
+
 ScrollReveal().reveal('.slide-up', slideUp);
+
+ScrollReveal().reveal('.item', item);

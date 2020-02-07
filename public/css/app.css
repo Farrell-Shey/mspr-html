@@ -10337,21 +10337,32 @@ footer {
 }
 
 .card {
-  width: 330px;
+  max-width: 330px;
   height: 620px;
-  margin: 5% auto;
+  margin: 10% auto;
   border-radius: 15px;
   border: 1px solid #e3c357;
-  background: transparent;
+  background: black no-repeat bottom;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 .card:hover {
-  background: rgba(128, 128, 128, 0.3);
   box-shadow: 5px 5px 0 rgba(227, 195, 87, 0.3);
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+.card:hover figcaption {
+  text-decoration: none;
+}
+
+.card:hover h2 {
+  text-decoration: none;
+}
+
+.card:hover p {
+  text-decoration: none;
 }
 
 .card img {
