@@ -4,16 +4,28 @@
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var scrollreveal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! scrollreveal */ "./node_modules/scrollreveal/dist/scrollreveal.es.js");
 window.Popper = __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js")["default"];
 
 try {
   window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
-} catch (e) {}
+} catch (e) {} //Scroll Reveal
+
+
+
+var slideUp = {
+  distance: '150%',
+  origin: 'bottom',
+  opacity: null
+};
+Object(scrollreveal__WEBPACK_IMPORTED_MODULE_0__["default"])().reveal('.slide-up', slideUp);
 
 /***/ }),
 
@@ -35,8 +47,8 @@ try {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\wamp64\www\mspr-html\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\wamp64\www\mspr-html\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\wamp64\www\mspr-html\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\wamp64\www\mspr-html\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
