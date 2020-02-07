@@ -11,10 +11,14 @@
         <div class="col-md-6 ">
 
 
-          <strong class="text-uppercase ">Découvrez aussi nos produits Louis Vuitton</strong>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
-            repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
-            harum esse fugiat. Itaque, culpa?</p>
+          <strong class="text-uppercase ">Découvrez aussi nos produits CAVIAR</strong>
+          <p>Nous sommes CAVIAR une marque de luxe créé en 1965 au cœur de Rome. Nous créons de
+              nouveaux
+              visuels aux iphones mais de façon qu'il soit unique à vos yeux et pour que vous vous différenciiez
+              des
+              autres . Pour créer cette différence nous utilisons des matières luxueuses telles que l'or le
+              diamant
+              l'émeraude le ruby mais aussi de matière rare comme un morceau de la planète mars.</p>
 
         </div>
 
