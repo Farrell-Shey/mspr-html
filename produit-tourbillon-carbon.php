@@ -26,6 +26,7 @@ require_once 'includes/header.php'; ?>
                 miracle l'un d'eux a fait tomber son iphone et par les chocs violents c'est forger cette beauté de
                 technologie pour vous rappeler à quel point la différence vous rend immense
             </p>
+            <a href="#" class="btn btn-outline-light">$11 400</a>
         </div>
     </div>
 </section>

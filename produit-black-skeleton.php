@@ -24,6 +24,7 @@ require_once 'includes/header.php'; ?>
             <p class="text-white">Iphone forgé dans un cimetière de héros, inconnu de tous crée à l'aide d'or jaune et noir. Les héros de l'ancien temps vous porteront au sein de vos journées quand vous aurez cette oeuvre dans vos mains.
                 iphone mars : Cet iphone forgé par le dieu de la guerre au cœur de sa propre planète, il vous aura laissé un présent visible sur cet iphone pour vous souvenir de la divinité que vous aurez entre vos mains.</p>
         </div>
+        <a href="#" class="btn btn-outline-light">$11 400</a>
     </div>
 </section>
 

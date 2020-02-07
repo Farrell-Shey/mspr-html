@@ -25,6 +25,7 @@ require_once 'includes/header.php'; ?>
                     Cet iphone forgé par le dieu de la guerre au cœur de sa propre planète, il vous aura laissé un
                     présent visible sur cet iphone pour vous souvenir de la divinité que vous aurez entre vos mains.
                 </p>
+                <a href="#" class="btn btn-outline-light">$11 400</a>
             </div>
         </div>
     </section>
